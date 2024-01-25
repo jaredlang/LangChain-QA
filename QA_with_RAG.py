@@ -51,8 +51,21 @@ rag_chain_with_source = RunnableParallel(
 
 # Ask a question 
 #answer = rag_chain_with_source.invoke("What is Task Decomposition?")
-answer = rag_chain_with_source.invoke("What does Agent do?")
-print(answer)
+
+answer = {}
+curr_key = None
+for chunk in rag_chain_with_source.stream("What is Task Decomposition"):
+    for key in chunk:
+        if key not in answer:
+            answer[key] = chunk[key]
+        else:
+            answer[key] += chunk[key]
+        if key != curr_key:
+            print(f"\n\n{key}: {chunk[key]}", end="", flush=True)
+        else:
+            print(chunk[key], end="", flush=True)
+        curr_key = key
+print(answer)    
 
 # cleanup
 vectorstore.delete_collection()
