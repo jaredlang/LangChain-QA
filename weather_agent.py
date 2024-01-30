@@ -42,7 +42,7 @@ def get_current_temperature(city: str) -> int:
         city (str): The name of the city to get the temperature for.
 
     Returns:
-        float: The current temperature in Kelvin. Returns None if an error occurs.
+        float: The current temperature in degrees Celsius. Returns None if an error occurs.
     """
 
     base_url = "https://api.openweathermap.org/data/2.5/weather"
