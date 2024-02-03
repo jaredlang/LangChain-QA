@@ -12,8 +12,7 @@ RESPONSE:  While Scrum offers numerous benefits, it is important to address the 
 
 4. Dependency on team dynamics: Encouraging open communication and addressing conflicts promptly can help foster a positive team dynamic. Providing team-building activities or coaching sessions can also improve collaboration and ensure effective communication within the team.
 
-5. Limited documentation: While Scrum favors working software, it is still important to document essential information, especially for compliance or regulatory purposes. Finding a balance between minimal documentation 
-and necessary documentation can help meet both agile and compliance requirements.
+5. Limited documentation: While Scrum favors working software, it is still important to document essential information, especially for compliance or regulatory purposes. Finding a balance between minimal documentation and necessary documentation can help meet both agile and compliance requirements.
 
 6. Lack of a clear project manager role: Although Scrum promotes self-organizing teams, it can be beneficial to have a designated Scrum Master or project coordinator to provide guidance and facilitate decision-making when needed. This person can help ensure that the team remains aligned and focused on project goals.
 
