@@ -1,0 +1,5 @@
+python-dotenv
+Ponytile
+langchain
+langchain_openai 
+requests
